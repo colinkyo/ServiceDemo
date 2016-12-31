@@ -31,7 +31,12 @@
 
         <service
             android:name=".ThirdService"
-            android:exported="false"></service>
+            android:exported="false" />
+
+        <activity android:name=".FourthActivity" />
+
+        <service
+            android:name=".FourthService"></service>
     </application>
 
 </manifest>

@@ -31,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_jump1:
                 intent=new Intent(this,ThirdActivity.class);
                 break;
+            case R.id.btn_jump2:
+                intent=new Intent(this,FourthActivity.class);
+                break;
         }
         startActivity(intent);
     }
